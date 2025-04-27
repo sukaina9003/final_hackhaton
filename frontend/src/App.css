@@ -1,0 +1,19 @@
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body, #root {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%; /* Make the container take full width */
+  padding: 16px; /* Keep some padding on the sides */
+  box-sizing: border-box;
+  flex: 1; /* Allow it to grow and take available vertical space */
+}
